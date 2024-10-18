@@ -299,3 +299,14 @@ function clearHistory(){
 function removeHistory(){
     rm ~/.zsh_history
 }
+
+runWithNvidia() {
+    if [ -z "$1" ] || [ "$1" == "--help" ] || [ "$1" == "-h" ]; then
+        echo -e  "Uso: runWithNvidia <programa>\n"
+        echo "Descripción:"
+        echo -e "\tEjecuta un programa utilizando la GPU de NVIDIA en sistemas con soporte para NVIDIA"
+        return 0
+    fi
+
+    __NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia "$1"
+}
