@@ -61,6 +61,7 @@ Seleccionamos `Brisa oscuro`, marcamos ambas casillas y pulsamos `Aplicar`
 <p align="center">
   <img src="/images/image_3.png" />
 </p>
+
 ### Sesión de Escritorio
 
 Para evitar que se guarde la sesión al reiniciar y tener que confirmar al reiniciar, apagar, cerrar sesión etc, accedemos a `Preferencias del sistema` > `Arranque y apagado` > `Sesión de escritorio`
@@ -74,6 +75,7 @@ Seleccionamos `Comenzar con una sesión vacía` y desmarcamos la opción `Mostra
 <p align="center">
   <img src="/images/image_5.png" />
 </p>
+
 ### Panel de Inicio
 
 Pinchamos en el símbolo de configuración de arriba a la derecha
