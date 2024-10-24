@@ -46,6 +46,7 @@ Nuestro `Display Manager` es SDDM, si tenemos una tarjeta Nvidia es preferible u
 <p align="center">
   <img src="/images/image_1.png" />
 </p>
+
 ## Configuración del Sistema
 ### Tema Oscuro
 
@@ -118,6 +119,7 @@ Hacemos click sobre la foto de perfil y pulsamos en `Escoger archivo`, el archiv
 <p align="center">
   <img src="/images/image_10.png" />
 </p>
+
 ### Animaciones
 
 Para activar las animaciones accedemos a `Preferencias del sistema` > `Comportamiento del espacio de trabajo` > `Efectos del escritorio`. Una vez ahí activamos `Lámpara mágica`
@@ -131,6 +133,7 @@ Otro efecto a tener en cuenta sería el de `Ventanas Tambaleantes`, en mi caso n
 <p align="center">
   <img src="/images/image_12.png" />
 </p>
+
 ### Servicios en Segundo Plano
 
 Vamos a modificar los servicios segundo plano, para ello accedemos a `Preferencias del sistema` > `Arranque y apagado` > `Servicios en segundo plano` y desactivamos los que no utilicemos
@@ -284,6 +287,7 @@ Abrimos la tienda de aplicaciones Discover e instalamos ZapZap [https://github.c
 <p align="center">
   <img src="/images/image_21.png" />
 </p>
+
 ## Instalación de Obsidian, Discord y Fastfetch
 
 Nos descargamos los .deb de obsidian [https://obsidian.md/download](https://obsidian.md/download), discord [https://discord.com/download](https://discord.com/download) y fastfetch [https://github.com/fastfetch-cli/fastfetch.git](https://github.com/fastfetch-cli/fastfetch.git) , para fastfetch debemos descargar `fastfetch-linux-amd64.deb`. Una vez descargados los .deb nos dirigimos a la carpeta de descargas y hacemos
@@ -390,6 +394,7 @@ Eliminamos el `Inglés` y añadimos el `Español`
 <p align="center">
   <img src="/images/image_26.png" />
 </p>
+
 ## Configuración ZSH
 
 Le asignamos como terminal por defecto una zsh a nuestro usuario y a root, debes sustituir `sergio` por tu nombre de usuario
