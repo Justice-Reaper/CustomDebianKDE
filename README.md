@@ -1,7 +1,5 @@
 # CustomDebianKde
 
-Entorno KDE customizado y simple para mejorar tu experiencia en Linux
-
 <p align="center">
   <br><br>
   <img src="/images/Debian.png" />
