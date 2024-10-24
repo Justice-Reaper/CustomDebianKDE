@@ -307,5 +307,5 @@ runWithNvidia() {
         return 0
     fi
 
-    __NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia "$1" > /dev/null 2>&1 & disown
+    __NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia "$@" > /dev/null 2>&1 & disown
 }
