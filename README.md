@@ -2,7 +2,9 @@
 
 Entorno KDE customizado y simple para mejorar tu experiencia en Linux
 
-![](/images/Debian.png)
+<p align="center">
+  <img src="/images/Debian.png" />
+</p>
 ## Descripción
 
 En este artículo muestro mi configuración de Debian 12 con KDE para mi portátil HP-Victus 16 con una gráfica Nvidia 3050 4GB y con un procesador Ryzen 7 6800H
@@ -40,39 +42,55 @@ sudo reboot
 
 Nuestro `Display Manager` es SDDM, si tenemos una tarjeta Nvidia es preferible usar x11 actualmente con el fin de evitar posibles fallos. Si no tenemos tarjeta Nvidia podemos usar Wayland sin problemas
 
-![](/images/image_1.png)
+<p align="center">
+  <img src="/images/image_1.png" />
+</p>
 ## Configuración del Sistema
 ### Tema Oscuro
 
 Para configurar el modo oscuro accedemos a `Preferencias del sistema` > `Aspecto` > `Tema global`
 
-![](/images/image_2.png)
+<p align="center">
+  <img src="/images/image_2.png" />
+</p>
 
 Seleccionamos `Brisa oscuro`, marcamos ambas casillas y pulsamos `Aplicar`
 
-![](/images/image_3.png)
+<p align="center">
+  <img src="/images/image_3.png" />
+</p>
 ### Sesión de Escritorio
 
 Para evitar que se guarde la sesión al reiniciar y tener que confirmar al reiniciar, apagar, cerrar sesión etc, accedemos a `Preferencias del sistema` > `Arranque y apagado` > `Sesión de escritorio`
 
-![](/images/image_4.png)
+<p align="center">
+  <img src="/images/image_4.png" />
+</p>
 
 Seleccionamos `Comenzar con una sesión vacía` y desmarcamos la opción `Mostrar` y pulsamos `Aplicar`
 
-![](/images/image_5.png)
+<p align="center">
+  <img src="/images/image_5.png" />
+</p>
 ### Panel de Inicio
 
 Pinchamos en el símbolo de configuración de arriba a la derecha
 
-![](/images/image_6.png)
+<p align="center">
+  <img src="/images/image_6.png" />
+</p>
 
 Desmarcamos la casilla de `Mostrar texto de los botones de acciones`, seleccionamos la opción de `Energía y sesión` y en `Mostrar favoritos` seleccionamos `En una lista`. Una vez hecho esto pulsamos sobre el icono y posteriormente en `Escoger`, filtramos por `Todo` y por `debian`. Una vez seleccionado el icono pulsamos en `Aceptar`
 
-![](/images/image_7.png)
+<p align="center">
+  <img src="/images/image_7.png" />
+</p>
 
 Si se ha hecho todo correctamente debería verse así, una vez hecho esto pulsamos en `Aplicar`
 
-![](/images/image_8.png)
+<p align="center">
+  <img src="/images/image_8.png" />
+</p>
 
 Nos creamos una carpeta llamada custom para almacenar ahí los iconos
 
@@ -90,20 +108,28 @@ cp debian.svg /usr/share/icons/custom/
 
 Para cambiar el icono de nuestro usuario, accedemos a `Preferencias del sistema` > `Usuarios`
 
-![](/images/image_9.png)
+<p align="center">
+  <img src="/images/image_9.png" />
+</p>
 
 Hacemos click sobre la foto de perfil y pulsamos en `Escoger archivo`, el archivo que debemos seleccionar está en la ruta `/usr/share/icons/custom/`. Una vez seleccionada la imagen pulsamos en `Aplicar`
 
-![](/images/image_10.png)
+<p align="center">
+  <img src="/images/image_10.png" />
+</p>
 ### Animaciones
 
 Para activar las animaciones accedemos a `Preferencias del sistema` > `Comportamiento del espacio de trabajo` > `Efectos del escritorio`. Una vez ahí activamos `Lámpara mágica`
 
-![](/images/image_11.png)
+<p align="center">
+  <img src="/images/image_11.png" />
+</p>
 
 Otro efecto a tener en cuenta sería el de `Ventanas Tambaleantes`, en mi caso no lo voy a activar
 
-![](/images/image_12.png)
+<p align="center">
+  <img src="/images/image_12.png" />
+</p>
 ### Servicios en Segundo Plano
 
 Vamos a modificar los servicios segundo plano, para ello accedemos a `Preferencias del sistema` > `Arranque y apagado` > `Servicios en segundo plano` y desactivamos los que no utilicemos
@@ -117,7 +143,9 @@ Para deshabilitar el touchpad nos dirigimos a `Preferencias del sistema` > `Disp
 
 Damos click derecho sobre la barra de tareas y pulsamos en `Entrar en modo edición` nuevamente. Pulsamos en `Añadir separador` y añadimos dos separadores, al pasar el ratón por encima del pagina nos saldrá la opción de `Eliminar` y la ejecutamos. Una vez hecho esto arrastramos el `Gestor de tareas solo iconos` al centro de la pantalla entre los dos separadores y el `Lanzador de aplicaciones` lo arrastramos a la izquierda
 
-![](/images/image_13.png)
+<p align="center">
+  <img src="/images/image_13.png" />
+</p>
 
 Si queremos eliminar una aplicación del `Gestor de tareas` hacemos click sobre su icono y pulsamos `Liberar del gestor de tareas`, si queremos añadir una aplicación podemos hacer click derecho sobre su icono, bien desde el `Gestor de tareas` o desde el `Panel de inicio` y pulsar `Fijar en el gestor de tareas`
 ### Carpetas
@@ -143,34 +171,48 @@ cp -r fonts /usr/local/share
 
 Cuando abrimos esta consola de comando pulsamos en `Preferencias` > `Gestionar perfiles`. Una vez dentro pulsamos en `Nuevo`, marcamos la casilla de `Perfil predeterminado` y cambiamos `/bin/bash` por `/bin/zsh`
 
-![](/images/image_14.png)
+<p align="center">
+  <img src="/images/image_14.png" />
+</p>
 
 Una vez hecho esto pulsamos en `Aspecto` > `Escoger`, seleccionamos `Hack Nerd Font`, incrementamos el tamaño de la letra a 12 y pulsamos `Aceptar`
 
-![](/images/image_15.png)
+<p align="center">
+  <img src="/images/image_15.png" />
+</p>
 
 En la parte de `Cursor` marcamos `Línea vertical` y `Parpadeo`
 
-![](/images/image_16.png)
+<p align="center">
+  <img src="/images/image_16.png" />
+</p>
 
 Dentro de `Aspecto` pinchamos sobre `Varios`, seleccionamos como márgenes 10px y la marcamos la casilla de `Centrar`
 
-![](/images/image_17.png)
+<p align="center">
+  <img src="/images/image_17.png" />
+</p>
 
 El siguiente paso es pulsar en `Preferencias` y desmarcamos la casilla llamada `Mostrar la barra de menú`, si queremos activarla nuevamente hacemos `click derecho` en el centro de la consola y volvemos a marcar la casilla
 ## Configuración Flameshot
 
 Para configurar accesos rápidos para flameshot accedemos a `Preferencias del sistema` > `Accesos rápidos` > `Accesos rápidos`, pulsamos en `Añadir aplicación` y añadimos `flameshot`
 
-![](/images/image_18.png)
+<p align="center">
+  <img src="/images/image_18.png" />
+</p>
 
 Añadimos un `Shortcut` para tomar capturas con flameshot, en mi caso uso `Windows + Shift + S`
 
-![](/images/image_19.png)
+<p align="center">
+  <img src="/images/image_19.png" />
+</p>
 
 Cuando flameshot esté abierto podemos hacer `click derecho` sobre su icono y pulsar en `Configurar`. Una vez hecho esto pulsamos en `General`, desmarcamos la opción `Mostrar notificaciones del escritorio` y `Mostrar mensaje de bienvenida en el lanzamiento`, también debemos marcamos la opción `Lanzar en el arranque`
 
-![](/images/image_20.png)
+<p align="center">
+  <img src="/images/image_20.png" />
+</p>
 ## Configuración Zram
 
 Instalamos `zram-tools`, esto es solo recomendable si tenemos un disco NVMe o un SSD, si tenemos un disco HDD es mejor tener una partición específica para la swap o hacerlo mediante un archivo
@@ -238,7 +280,9 @@ sudo reboot
 
 Abrimos la tienda de aplicaciones Discover e instalamos ZapZap [https://github.com/rafatosta/zapzap.git](https://github.com/rafatosta/zapzap.git), para desactivar el mensaje de donación pulsamos en `Avanzado` y desmarcamos la casilla de `Donation message`
 
-![](/images/image_21.png)
+<p align="center">
+  <img src="/images/image_21.png" />
+</p>
 ## Instalación de Obsidian, Discord y Fastfetch
 
 Nos descargamos los .deb de obsidian [https://obsidian.md/download](https://obsidian.md/download), discord [https://discord.com/download](https://discord.com/download) y fastfetch [https://github.com/fastfetch-cli/fastfetch.git](https://github.com/fastfetch-cli/fastfetch.git) , para fastfetch debemos descargar `fastfetch-linux-amd64.deb`. Una vez descargados los .deb nos dirigimos a la carpeta de descargas y hacemos
@@ -296,11 +340,15 @@ En `URL with %s in place of query` añadimos
 
 Este es el panel en el que deberíamos introducir los datos
 
-![](/images/image_22.png)
+<p align="center">
+  <img src="/images/image_22.png" />
+</p>
 
 Una vez añadido debemos pulsar en los tres puntos y en `Make default`
 
-![](/images/image_23.png)
+<p align="center">
+  <img src="/images/image_23.png" />
+</p>
 
 Una vez hecho el paso anterior podemos eliminar DuckDuckGo, como extensiones vamos a instalar Dark Reader [https://darkreader.org/](https://darkreader.org/), Ublock [https://ublockorigin.com/](https://ublockorigin.com/) y Plasma Integration [https://chromewebstore.google.com/detail/plasma-integration/cimiefiiaegbelhefglklhhakcgmhkai](https://chromewebstore.google.com/detail/plasma-integration/cimiefiiaegbelhefglklhhakcgmhkai) . Si necesitamos importar marcadores pegamos esto en la url e importamos los marcadores que queramos
 
@@ -308,7 +356,9 @@ Una vez hecho el paso anterior podemos eliminar DuckDuckGo, como extensiones vam
 chrome://settings/importData?search=bookma
 ```
 
-![](/images/image_24.png)
+<p align="center">
+  <img src="/images/image_24.png" />
+</p>
 
 Si accedemos a la configuración de chromium podemos usar un modo oscuro nativo del propio chromium
 
@@ -318,7 +368,9 @@ chrome://flags/
 
 La opción que mejor me ha funcionado a sido `Enabled with selective inversion of non-image elements`
 
-![](/images/image_25.png)
+<p align="center">
+  <img src="/images/image_25.png" />
+</p>
 
 Instalamos el paquete de idioma
 
@@ -334,7 +386,9 @@ chrome://settings/languages
 
 Eliminamos el `Inglés` y añadimos el `Español`
 
-![](/images/image_26.png)
+<p align="center">
+  <img src="/images/image_26.png" />
+</p>
 ## Configuración ZSH
 
 Le asignamos como terminal por defecto una zsh a nuestro usuario y a root, debes sustituir `sergio` por tu nombre de usuario
