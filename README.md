@@ -1,3 +1,7 @@
+# CustomDebianKde
+
+Entorno KDE customizado y simple para mejorar tu experiencia en Linux
+
 ## Descripción
 
 En este artículo muestro mi configuración de Debian 12 con KDE para mi portátil HP-Victus 16 con una gráfica Nvidia 3050 4GB y con un procesador Ryzen 7 6800H
