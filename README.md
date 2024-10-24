@@ -139,6 +139,10 @@ Vamos a modificar los servicios segundo plano, para ello accedemos a `Preferenci
 ### Fondo de Escritorio
 
 Hacemos click derecho sobre el escritorio y pulsamos sobre `Configurar el escritorio y la imagen de fondo`, seleccionamos la que deseemos y pulsamos en `Aceptar`
+### Pantalla de Bloqueo
+
+Para seleccionar una imagen de pantalla de bloqueo nos dirigimos a `Preferencias del sistema` > `Comportamiento del espacio de trabajo` > `Bloqueo de pantalla`, seleccionamos la `imagen` que deseemos y pulsamos en `Aplicar`
+
 ### Touchpad
 
 Para deshabilitar el touchpad nos dirigimos a `Preferencias del sistema` > `Dispositivos de entrada` > `Panel táctil`, desactivamos la casilla de `Dispositivo activado` y pulsamos en `Aplicar`
