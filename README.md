@@ -156,6 +156,9 @@ Si queremos eliminar una aplicación del `Gestor de tareas` hacemos click sobre 
 ### Carpetas
 
 Para que cuando hagamos click sobre una carpeta se `seleccione` en vez `abrirse` nos dirigimos a `Preferencias del sistema` > `Comportamiento del espacio de trabajo` > `Comportamiento general`, en la opción `Al pulsar archivos o carpetas` seleccionamos la opción `Se seleccionan` y posteriormente pulsamos en `Aplicar`
+### Iconos
+
+Si queremos modificar el tamaño de los iconos hacemos `click derecho` en el escritorio `Iconos` > `Tamaño de los iconos` > `Pequeño`
 ### Papelera
 
 Abrimos `dolphin`, hacemos click derecho sobre `Papelera` y pulsamos en `Configurar la papelera...`, una vez ahí marcamos la casilla de `Limpieza` y seleccionamos cada cuantos días queremos que se borren los archivos de la papelera, en mi caso voy a seleccionar cada `3 días`. Una vez configurado pulsamos en `Aplicar` y posteriormente en `Aceptar`
