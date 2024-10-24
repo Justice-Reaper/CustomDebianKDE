@@ -2,8 +2,6 @@
 
 Entorno KDE customizado y simple para mejorar tu experiencia en Linux
 
-![](/images/Debian.png)
-
 <p align="center">
   <img src="/images/Debian.png" />
 </p>
