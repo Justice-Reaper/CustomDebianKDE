@@ -146,7 +146,7 @@ Hacemos click derecho sobre el escritorio y pulsamos sobre `Configurar el escrit
 Para deshabilitar el touchpad nos dirigimos a `Preferencias del sistema` > `Dispositivos de entrada` > `Panel táctil`, desactivamos la casilla de `Dispositivo activado` y pulsamos en `Aplicar`
 ### Barra de tareas
 
-Damos click derecho sobre la barra de tareas y pulsamos en `Entrar en modo edición` nuevamente. Pulsamos en `Añadir separador` y añadimos dos separadores, al pasar el ratón por encima del pagina nos saldrá la opción de `Eliminar` y la ejecutamos. Una vez hecho esto arrastramos el `Gestor de tareas solo iconos` al centro de la pantalla entre los dos separadores y el `Lanzador de aplicaciones` lo arrastramos a la izquierda
+Damos click derecho sobre la barra de tareas y pulsamos en `Entrar en modo edición` nuevamente. Pulsamos en `Añadir separador` y añadimos dos separadores, al pasar el ratón por encima del pagina nos saldrá la opción de `Eliminar` y la ejecutamos. Una vez hecho esto arrastramos el `Gestor de tareas solo iconos` al centro de la pantalla entre los dos separadores y el `Lanzador de aplicaciones` lo arrastramos a la izquierda. La `Altura del panel` la ponemos en `40`, posteriormente hacemos click sobre `Más opciones`, cambiamos la `Opacidad` a `opaco` y la `Alineación del panel` a `centro`
 
 <p align="center">
   <img src="/images/image_13.png" />
