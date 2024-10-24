@@ -219,6 +219,7 @@ Cuando flameshot esté abierto podemos hacer `click derecho` sobre su icono y pu
 <p align="center">
   <img src="/images/image_20.png" />
 </p>
+
 ## Configuración Zram
 
 Instalamos `zram-tools`, esto es solo recomendable si tenemos un disco NVMe o un SSD, si tenemos un disco HDD es mejor tener una partición específica para la swap o hacerlo mediante un archivo
@@ -254,7 +255,7 @@ ALGO=lz4
 # Specifies a static amount of RAM that should be used for
 # the ZRAM devices, this is in MiB
 #SIZE=256
-SIZE=8192
+SIZE=10240
 
 # Specifies the priority for the swap devices, see swapon(2)
 # for more details. Higher number = higher priority
