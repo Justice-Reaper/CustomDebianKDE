@@ -1,5 +1,3 @@
-# CustomDebianKde
-
 <p align="center">
   <br><br>
   <img src="/images/Debian.png" />
