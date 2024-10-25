@@ -411,21 +411,21 @@ sudo chsh -s $(which zsh) root
 sudo chsh -s $(which zsh) sergio
 ```
 
-Nos descargamos los archivos de configuración p10k.sh y zshrc [https://github.com/Justice-Reaper/CustomDebianKde.git](https://github.com/Justice-Reaper/CustomDebianKde.git)
+Nos descargamos los archivos de configuración [https://github.com/Justice-Reaper/CustomDebianKde.git](https://github.com/Justice-Reaper/CustomDebianKde.git)
 
 ```
 git clone https://github.com/Justice-Reaper/CustomDebianKde.git
-cp CustomDebianKde/* .
+cp -r CustomDebianKde/* .
+mv zsh-syntax-highlighting/revision_hash .revision_hash
+mv zsh-syntax-highlighting/version .version
 ```
-
-Nos creamos una carpeta llamada zsh-sudo, depositamos sudo.plugin.zsh dentro y copiamos esta carpeta en /usr/share para activar el plugin [https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/sudo/sudo.plugin.zsh](https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/sudo/sudo.plugin.zsh)
+Copiamos los archivos de configuración en la carpeta `/usr/share`
 
 ```
 su root
-mkdir zsh-sudo
-wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/refs/heads/master/plugins/sudo/sudo.plugin.zsh
-mv sudo.plugin.zsh zsh-sudo/
+cp -r zsh-autosuggestions /usr/share
 cp -r zsh-sudo /usr/share
+cp -r zsh-syntax-highlighting /usr/share 
 ```
 
 Instalamos la powerlevel10k [https://github.com/romkatv/powerlevel10k.git](https://github.com/romkatv/powerlevel10k.git) para nuestro usuario, debes sustituir `sergio` por tu nombre de usuario. Si ya tenemos una powerlevel10k instalada deberemos usar sudo o convertirnos en root
